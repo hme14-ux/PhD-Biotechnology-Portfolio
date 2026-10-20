@@ -82,7 +82,7 @@ experimental validation before making biological conclusions.
 - `data/`: Synthetic dataset used in the analysis.
 - `results/`: Model comparison and cross-validation results.
 - `models/`: Saved trained model.
-- `figures/`: Data visualization outputs, if generated and saved.
+- `figures/`: Data visualization outputs.
 
 ## Skills Demonstrated
 
