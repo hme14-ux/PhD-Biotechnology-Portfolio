@@ -66,3 +66,30 @@ The saved model was fitted on the training split.
 Future work should use experimentally measured and appropriately
 documented data, a predefined validation strategy, and independent
 experimental validation before making biological conclusions.
+
+## Tools and Technologies
+
+- Python
+- Google Colab
+- pandas and NumPy for data handling
+- Matplotlib for data visualization
+- scikit-learn for machine learning and model evaluation
+- joblib for model serialization
+- Git and GitHub for version control and project documentation
+
+## Project Structure
+
+- `data/`: Synthetic dataset used in the analysis.
+- `results/`: Model comparison and cross-validation results.
+- `models/`: Saved trained model.
+- `figures/`: Data visualization outputs, if generated and saved.
+
+## Skills Demonstrated
+
+- Data quality assessment and descriptive statistics
+- Exploratory data analysis
+- Binary classification and baseline comparison
+- Model evaluation using multiple metrics
+- Stratified cross-validation
+- Reproducible computational workflow
+- Scientific documentation and interpretation of limitations
