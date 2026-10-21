@@ -33,6 +33,32 @@ The genome assembly was analyzed using **StarAMR v0.12.3** in Galaxy Europe. The
 - **Contigs ≥300 bp:** 38
 - **Detected plasmid replicons:** `rep16`, `rep19`, `rep22`, `rep5a`, `repUS43`
 
+### Detailed Results and Output Files
+
+The analysis was performed using StarAMR v0.12.3 in Galaxy Europe.
+
+**Antimicrobial resistance genes detected:**
+- `aac(6')-aph(2'')`
+- `aadD`
+- `ant(9)-Ia`
+- `bleO`
+- `erm(A)`
+- `mecA`
+- `tet(M)`
+
+**Additional genomic findings:**
+- Multilocus sequence type (MLST): ST764
+- Assembly length: 2,911,349 bp
+- N50: 276,459 bp
+- Number of contigs ≥300 bp: 38
+- Detected plasmid replicons: `rep16`, `rep19`, `rep22`, `rep5a`, and `repUS43`
+
+**Uploaded output files:**
+The `results/` directory contains the resistance gene summary, detailed gene and plasmid summary, ResFinder report, PlasmidFinder report, Excel spreadsheet, BLAST hits, and analysis settings.
+
+**Interpretation:**
+The detected genes suggest potential antimicrobial resistance mechanisms. These are bioinformatics predictions and do not replace laboratory antimicrobial susceptibility testing. Plasmid replicon matches do not, by themselves, establish the presence of complete plasmids or prove that particular resistance genes are located on those plasmids.
+
 ## 5. Quality Assessment
 StarAMR reported a failed quality module because the configured acceptable genome-length range was 4–6 Mb, while this assembly was approximately 2.91 Mb. This flag concerns the configured quality criterion and does not, by itself, invalidate every result.
 
