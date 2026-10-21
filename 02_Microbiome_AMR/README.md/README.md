@@ -108,3 +108,4 @@ This bioinformatics analysis identified seven AMR-associated genes, five plasmid
 ## 9. References
 - [Dataset on Zenodo](https://zenodo.org/records/10572227)
 - [Galaxy Training Network: AMR Gene Detection](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/amr-gene-detection/tutorial.html)
+-- **StarAMR:** StarAMR software for antimicrobial resistance detection and genomic analysis. https://github.com/phac-nml/staramr 
