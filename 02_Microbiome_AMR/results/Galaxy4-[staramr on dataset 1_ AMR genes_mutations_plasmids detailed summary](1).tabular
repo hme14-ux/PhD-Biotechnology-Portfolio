@@ -1,0 +1,14 @@
+Isolate ID	Data	Data Type	Predicted Phenotype	CGE Predicted Phenotype	%Identity	%Overlap	HSP Length/Total Length	Contig	Start	End	Accession
+DRR187559_contigs.fasta	ST764 (saureus)	MLST									
+DRR187559_contigs.fasta	rep16	Plasmid			99.87	100.0	744/744	contig00019	2577	3320	CP000737
+DRR187559_contigs.fasta	rep19	Plasmid			100.0	100.0	984/984	contig00019	2151	1168	AP003139
+DRR187559_contigs.fasta	rep22	Plasmid			99.9	100.0	1005/1005	contig00024	3643	4647	AF503772
+DRR187559_contigs.fasta	rep5a	Plasmid			100.0	100.0	861/861	contig00019	5466	4606	AP003139
+DRR187559_contigs.fasta	repUS43	Plasmid			100.0	100.0	1206/1206	contig00002	2777	3982	CP003584
+DRR187559_contigs.fasta	aac(6')-aph(2'')	Resistance	amikacin, gentamicin, tobramycin	Gentamicin, Tobramycin, Netilmicin, Kanamycin, Amikacin, Dibekacin, Isepamicin, Fortimicin, Streptomycin	100.0	100.0	1440/1440	contig00019	20310	21749	M13771
+DRR187559_contigs.fasta	aadD	Resistance	amikacin, tobramycin	Amikacin, Tobramycin	100.0	100.0	762/762	contig00024	268	1029	M19465
+DRR187559_contigs.fasta	ant(9)-Ia	Resistance	spectinomycin	Spectinomycin	100.0	100.0	783/783	contig00022	3072	2290	X02588
+DRR187559_contigs.fasta	bleO	Resistance	unknown[bleO_1_AF051917]	Bleomycin	100.0	100.0	399/399	contig00024	1252	1650	AF051917
+DRR187559_contigs.fasta	erm(A)	Resistance	erythromycin, azithromycin	Erythromycin, Lincomycin, Clindamycin, Quinupristin, Pristinamycin IA, Virginiamycin S	100.0	100.0	732/732	contig00022	1433	2164	X03216
+DRR187559_contigs.fasta	mecA	Resistance	penicillin	Amoxicillin, Amoxicillin+Clavulanic acid, Ampicillin, Ampicillin+Clavulanic acid, Cefepime, Cefixime, Cefotaxime, Cefoxitin, Ceftazidime, Ertapenem, Imipenem, Meropenem, Piperacillin, Piperacillin+Tazobactam	99.95	100.0	2007/2007	contig00021	7660	9666	BX571856
+DRR187559_contigs.fasta	tet(M)	Resistance	tetracycline	Doxycycline, Tetracycline, Minocycline	100.0	100.0	1920/1920	contig00002	12256	14175	AM990992
