@@ -60,7 +60,28 @@ The `results/` directory contains the resistance gene summary, detailed gene and
 The detected genes suggest potential antimicrobial resistance mechanisms. These are bioinformatics predictions and do not replace laboratory antimicrobial susceptibility testing. Plasmid replicon matches do not, by themselves, establish the presence of complete plasmids or prove that particular resistance genes are located on those plasmids.
 
 ## 5. Quality Assessment
-StarAMR reported a failed quality module because the configured acceptable genome-length range was 4–6 Mb, while this assembly was approximately 2.91 Mb. This flag concerns the configured quality criterion and does not, by itself, invalidate every result.
+
+The StarAMR quality module flagged the assembly because its total length (2,911,349 bp) was below the configured minimum genome length of 4,000,000 bp.
+
+This flag indicates that the assembly did not meet the selected genome-length criterion. It does not, by itself, demonstrate that all resistance gene detections are invalid. The quality thresholds and their suitability for the analyzed organism should be reviewed before interpreting the results.
+
+Assembly statistics were:
+- Total assembly length: 2,911,349 bp
+- N50: 276,459 bp
+- Number of contigs ≥300 bp: 38
+
+The results should be treated as preliminary computational findings and interpreted with the limitations of the input assembly and analysis settings in mind.### Quality Assessment
+
+The StarAMR quality module flagged the assembly because its total length (2,911,349 bp) was below the configured minimum genome length of 4,000,000 bp.
+
+This flag indicates that the assembly did not meet the selected genome-length criterion. It does not, by itself, demonstrate that all resistance gene detections are invalid. The quality thresholds and their suitability for the analyzed organism should be reviewed before interpreting the results.
+
+Assembly statistics were:
+- Total assembly length: 2,911,349 bp
+- N50: 276,459 bp
+- Number of contigs ≥300 bp: 38
+
+The results should be treated as preliminary computational findings and interpreted with the limitations of the input assembly and analysis settings in mind..
 
 ## 6. Limitations
 - Detected genes indicate potential resistance mechanisms; they do not replace laboratory antimicrobial susceptibility testing.
