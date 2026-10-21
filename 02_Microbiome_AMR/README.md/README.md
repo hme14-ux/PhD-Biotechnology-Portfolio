@@ -21,6 +21,8 @@ The supplied *Staphylococcus aureus* genome assembly (`DRR187559_contigs.fasta`)
 The workflow screened the assembly for antimicrobial resistance (AMR) genes using resistance gene databases, identified plasmid replicons, and determined the multilocus sequence typing (MLST) profile. The analysis outputs included resistance gene summaries, detailed gene and plasmid reports, BLAST results, and assembly quality statistics.
 
 The analysis was performed computationally using an existing genome assembly. No new laboratory experiments or phenotypic antimicrobial susceptibility tests were conducted as part of this project.
+**Galaxy analysis history:** [View StarAMR analysis job](https://usegalaxy.eu/jobs/4838ba20a6d86765caad8437dd3395f6/view)
+
 ## 4. Results
 
 ### Detected antimicrobial resistance genes
