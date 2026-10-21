@@ -22,6 +22,7 @@ The workflow screened the assembly for antimicrobial resistance (AMR) genes usin
 
 The analysis was performed computationally using an existing genome assembly. No new laboratory experiments or phenotypic antimicrobial susceptibility tests were conducted as part of this project.
 **Galaxy analysis history:** [View StarAMR analysis job](https://usegalaxy.eu/jobs/4838ba20a6d86765caad8437dd3395f6/view)
+**Public Galaxy History:** [View and import the complete AMR analysis history](https://usegalaxy.eu/u/had18/h/project-02-amr-gene-detection)
 
 ## 4. Results
 
