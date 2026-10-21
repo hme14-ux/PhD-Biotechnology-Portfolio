@@ -84,10 +84,16 @@ Assembly statistics were:
 The results should be treated as preliminary computational findings and interpreted with the limitations of the input assembly and analysis settings in mind..
 
 ## 6. Limitations
-- Detected genes indicate potential resistance mechanisms; they do not replace laboratory antimicrobial susceptibility testing.
-- Plasmid replicon detections do not prove that each replicon represents a complete plasmid.
-- The analysis used the supplied genome assembly; no new laboratory experiments were performed.
-- PointFinder mutation analysis was not enabled in this run.
+- ### Limitations
+
+1. **Computational predictions only:** Detected antimicrobial resistance genes suggest potential resistance mechanisms but do not confirm phenotypic resistance. Laboratory antimicrobial susceptibility testing is required for phenotypic confirmation.
+2. **Plasmid interpretation:** Detection of plasmid replicons does not establish that complete plasmids are present or that specific resistance genes are physically located on those plasmids.
+3. **Assembly quality:** The assembly did not meet the configured minimum genome-length threshold. This requires further assessment of assembly quality and suitability of the selected parameters.
+4. **Mutation analysis:** PointFinder mutation analysis was not enabled in this run; therefore, resistance-associated mutations from this module were not assessed.
+5. **Database and threshold dependence:** Results depend on the reference databases, database versions, and detection thresholds used by StarAMR.
+6. **No experimental validation:** This project used an existing genome assembly and computational analysis; no new laboratory experiments were performed.
+
+These limitations should be considered when interpreting the findings or drawing conclusions about antimicrobial resistance.
 
 ## 7. Conclusion
 This bioinformatics analysis identified seven AMR-associated genes, five plasmid replicon types, and MLST sequence type ST764 in the supplied *S. aureus* assembly. The results provide a preliminary genomic resistance profile that requires cautious interpretation and, where relevant, comparison with phenotypic susceptibility data.
