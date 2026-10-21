@@ -1,0 +1,6 @@
+Isolate ID	Plasmid	%Identity	%Overlap	HSP Length/Total Length	Contig	Start	End	Accession
+DRR187559_contigs.fasta	rep16	99.87	100.00	744/744	contig00019	2577	3320	CP000737
+DRR187559_contigs.fasta	rep19	100.00	100.00	984/984	contig00019	2151	1168	AP003139
+DRR187559_contigs.fasta	rep22	99.90	100.00	1005/1005	contig00024	3643	4647	AF503772
+DRR187559_contigs.fasta	rep5a	100.00	100.00	861/861	contig00019	5466	4606	AP003139
+DRR187559_contigs.fasta	repUS43	100.00	100.00	1206/1206	contig00002	2777	3982	CP003584
