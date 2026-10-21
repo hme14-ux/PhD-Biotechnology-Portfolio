@@ -5,13 +5,22 @@ To identify antimicrobial resistance (AMR) genes and plasmid replicons in a *Sta
 
 ## 2. Dataset
 - **Sample:** KUN1163
+- **Organism:** *Staphylococcus aureus* (MRSA)
 - **Input file:** `DRR187559_contigs.fasta`
 - **Data source:** [Zenodo dataset](https://zenodo.org/records/10572227)
+- **Data type:** Existing genome assembly in FASTA format
 - **Analysis platform:** Galaxy Europe
 
-## 3. Methodology
-The genome assembly was analyzed using **StarAMR v0.12.3** in Galaxy Europe. The workflow screened the assembly for resistance genes, plasmid replicons, and multilocus sequence typing (MLST).
+The project used a previously available genome assembly for computational detection of antimicrobial resistance genes, plasmid replicons, and the MLST sequence type. No new biological samples were collected for this analysis.
 
+## 3. Methodology
+
+
+The supplied *Staphylococcus aureus* genome assembly (`DRR187559_contigs.fasta`) was analyzed using StarAMR v0.12.3 in Galaxy Europe.
+
+The workflow screened the assembly for antimicrobial resistance (AMR) genes using resistance gene databases, identified plasmid replicons, and determined the multilocus sequence typing (MLST) profile. The analysis outputs included resistance gene summaries, detailed gene and plasmid reports, BLAST results, and assembly quality statistics.
+
+The analysis was performed computationally using an existing genome assembly. No new laboratory experiments or phenotypic antimicrobial susceptibility tests were conducted as part of this project.
 ## 4. Results
 
 ### Detected antimicrobial resistance genes
@@ -74,7 +83,7 @@ The results should be treated as preliminary computational findings and interpre
 
 
 ## 6. Limitations
-- ### Limitations
+- 
 
 1. **Computational predictions only:** Detected antimicrobial resistance genes suggest potential resistance mechanisms but do not confirm phenotypic resistance. Laboratory antimicrobial susceptibility testing is required for phenotypic confirmation.
 2. **Plasmid interpretation:** Detection of plasmid replicons does not establish that complete plasmids are present or that specific resistance genes are physically located on those plasmids.
@@ -86,7 +95,11 @@ The results should be treated as preliminary computational findings and interpre
 These limitations should be considered when interpreting the findings or drawing conclusions about antimicrobial resistance.
 
 ## 7. Conclusion
-This bioinformatics analysis identified seven AMR-associated genes, five plasmid replicon types, and MLST sequence type ST764 in the supplied *S. aureus* assembly. The results provide a preliminary genomic resistance profile that requires cautious interpretation and, where relevant, comparison with phenotypic susceptibility data.
+
+
+This bioinformatics analysis identified seven AMR-associated genes, five plasmid replicon types, and MLST sequence type ST764 in the supplied *Staphylococcus aureus* genome assembly. The results provide a preliminary genomic resistance profile that requires cautious interpretation and, where relevant, comparison with phenotypic antimicrobial susceptibility data.
+
+The assembly did not meet the configured minimum genome-length threshold, so the quality assessment and suitability of the analysis parameters should be reviewed. The detected genes indicate potential resistance mechanisms but do not independently confirm phenotypic resistance. Likewise, plasmid replicon detections do not establish the presence of complete plasmids or the physical location of resistance genes on them.
 
 ## 8. Tools
 - Galaxy Europe
@@ -98,4 +111,4 @@ This bioinformatics analysis identified seven AMR-associated genes, five plasmid
 ## 9. References
 - [Dataset on Zenodo](https://zenodo.org/records/10572227)
 - [Galaxy Training Network: AMR Gene Detection](https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/amr-gene-detection/tutorial.html)
--- **StarAMR:** StarAMR software for antimicrobial resistance detection and genomic analysis. https://github.com/phac-nml/staramr 
+- [StarAMR: Antimicrobial Resistance Detection Software](https://github.com/phac-nml/staramr)
