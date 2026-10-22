@@ -73,16 +73,17 @@ The detected genes suggest potential antimicrobial resistance mechanisms. These 
 
 ## 5. Quality Assessment
 
-The StarAMR quality module flagged the assembly because its total length (2,911,349 bp) was below the configured minimum genome length of 4,000,000 bp.
+The StarAMR quality module flagged the assembly because its total length (2,911,349 bp) was below the configured minimum genome-length threshold of 4,000,000 bp.
 
-This flag indicates that the assembly did not meet the selected genome-length criterion. It does not, by itself, demonstrate that all resistance gene detections are invalid. The quality thresholds and their suitability for the analyzed organism should be reviewed before interpreting the results.
+This flag indicates that the assembly did not meet the selected genome-length criterion. It does not, by itself, establish that the antimicrobial resistance gene detections are invalid. However, the assembly quality and analysis settings must be evaluated before drawing conclusions from the detected resistance genes.
 
-Assembly statistics were:
+Assembly statistics were as follows:
+
 - Total assembly length: 2,911,349 bp
 - N50: 276,459 bp
 - Number of contigs ≥300 bp: 38
 
-The results should be treated as preliminary computational findings and interpreted with the limitations of the input assembly and analysis settings in mind.
+The assembly-length threshold should be reviewed for its suitability for *Staphylococcus aureus*. The reported resistance gene matches are therefore considered preliminary computational findings. They require cautious interpretation, and the quality flag and analysis limitations should be considered when reporting the results.
 
 
 ## 6. Limitations
@@ -99,10 +100,13 @@ These limitations should be considered when interpreting the findings or drawing
 
 ## 7. Conclusion
 
+This bioinformatics analysis identified seven antimicrobial resistance (AMR)-associated genes, five plasmid replicon types, and multilocus sequence typing (MLST) sequence type ST764 in the supplied *Staphylococcus aureus* genome assembly. These findings provide a preliminary genomic profile of potential antimicrobial resistance determinants in the analyzed assembly.
 
-This bioinformatics analysis identified seven AMR-associated genes, five plasmid replicon types, and MLST sequence type ST764 in the supplied *Staphylococcus aureus* genome assembly. The results provide a preliminary genomic resistance profile that requires cautious interpretation and, where relevant, comparison with phenotypic antimicrobial susceptibility data.
+The assembly did not meet the configured minimum genome-length threshold of 4,000,000 bp. Therefore, the assembly quality and the suitability of the analysis parameters for *S. aureus* should be reviewed before drawing further conclusions.
 
-The assembly did not meet the configured minimum genome-length threshold, so the quality assessment and suitability of the analysis parameters should be reviewed. The detected genes indicate potential resistance mechanisms but do not independently confirm phenotypic resistance. Likewise, plasmid replicon detections do not establish the presence of complete plasmids or the physical location of resistance genes on them.
+The detected AMR-associated genes suggest potential resistance mechanisms but do not independently establish phenotypic antimicrobial resistance. Phenotypic antimicrobial susceptibility testing would be required to assess the observed resistance profile experimentally. Similarly, plasmid replicon detections indicate sequence similarity to known plasmid replication markers but do not establish the presence of complete plasmids or confirm the physical linkage of AMR genes to specific plasmids.
+
+These findings should therefore be interpreted as preliminary computational results, taking into account the assembly-quality flag and the limitations of the analysis settings.
 
 ## 8. Tools
 - Galaxy Europe
